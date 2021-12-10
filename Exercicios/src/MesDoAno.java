@@ -36,5 +36,21 @@ public class MesDoAno {
         } else if (n == 12) {
             System.out.println("Você escolheu o mês de Dezembro");
         }
+
+        switch (n) {
+            case 1: System.out.println("Você escolheu o mês de Janeiro"); break;
+            case 2: System.out.println("Você escolheu o mês de Fevereiro"); break;
+            case 3: System.out.println("Você escolheu o mês de Março"); break;
+            case 4: System.out.println("Você escolheu o mês de Abril"); break;
+            case 5: System.out.println("Você escolheu o mês de Maio"); break;
+            case 6: System.out.println("Você escolheu o mês de Junho"); break;
+            case 7: System.out.println("Você escolheu o mês de Julho"); break;
+            case 8: System.out.println("Você escolheu o mês de Agosto"); break;
+            case 9: System.out.println("Você escolheu o mês de Setembro"); break;
+            case 10: System.out.println("Você escolheu o mês de Outubro"); break;
+            case 11: System.out.println("Você escolheu o mês de Novembro"); break;
+            case 12: System.out.println("Você escolheu o mês de Desembro"); break;
+            default: System.out.println("Você não digitou um número válido");
+        }
     }
 }

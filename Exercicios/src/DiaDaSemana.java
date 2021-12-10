@@ -27,7 +27,7 @@ public class DiaDaSemana {
             System.out.println("Você escolheu o Sábado");
         }
 
-        switch (diaSemana) {
+        switch (day) {
             case 1: System.out.println("Você escolheu o Domingo"); break;
             case 2: System.out.println("Você escolheu a Segunda"); break;
             case 3: System.out.println("Você escolheu a Terça"); break;
@@ -35,7 +35,7 @@ public class DiaDaSemana {
             case 5: System.out.println("Você escolheu a Quinta"); break;
             case 6: System.out.println("Você escolheu a Sexta, bom fim de semana"); break;
             case 7: System.out.println("Você escolheu o Sábado"); break;
-            default: System.out.println("Você não digitou um número válido")
+            default: System.out.println("Você não digitou um número válido");
         }
     }
 }
